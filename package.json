@@ -12,5 +12,13 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satyamkumar55-tech/Express_js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Satyamkumar55-tech/Express_js/issues"
+  },
+  "homepage": "https://github.com/Satyamkumar55-tech/Express_js#readme"
 }
