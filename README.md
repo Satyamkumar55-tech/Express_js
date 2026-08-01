@@ -107,13 +107,13 @@ Client
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Satyamkumar55-tech/Express_js-learning.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd <project-folder>
+cd ExpressJs
 ```
 
 Install dependencies:
@@ -125,13 +125,13 @@ npm install
 Start the server:
 
 ```bash
-node index.js
+node server.js
 ```
 
 Or, if you're using Nodemon:
 
 ```bash
-nodemon index.js
+nodemon server.js
 ```
 
 ## 🔮 Future Improvements
