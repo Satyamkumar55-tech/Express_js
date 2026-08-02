@@ -10,7 +10,7 @@ let students = [];
 
 app.get("/students", (req, res) => {
     res.json(students);
-});git
+});
 
 app.post("/students", (req, res) => {
     const { name, age } = req.body;
