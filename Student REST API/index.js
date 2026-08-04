@@ -1,17 +1,13 @@
-const express = require("express")
-
-const PORT = 3000
+const express = require("express");
 
 const app = express();
 
 app.use(express.json());
 
-// Import router
 const studentRoutes = require("./routes/students");
 
-// Use router
-app.use("/students", studentRoutes);
+app.use(studentRoutes);
 
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+app.listen(3000, () => {
+    console.log("Server running on port 3000");
 });
